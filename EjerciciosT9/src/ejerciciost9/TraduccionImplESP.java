@@ -2,7 +2,7 @@ package ejerciciost9;
 
 import java.util.Scanner;
 
-public class TraduccionImplESP implements Traducción {
+public class TraduccionImplESP implements Traduccion {
     double distancia;
     double tiempo;
     double velocidad;
