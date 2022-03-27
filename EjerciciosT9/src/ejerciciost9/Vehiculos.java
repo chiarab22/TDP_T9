@@ -36,4 +36,6 @@ public abstract class Vehiculos {
     public void setFechaDeCompra(LocalDate fechaDeCompra) {
         this.fechaDeCompra = fechaDeCompra;
     }
+
+    public abstract void mostrar();
 }
