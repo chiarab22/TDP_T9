@@ -23,12 +23,12 @@ public class TraduccionImplFR implements Traduccion{
     public void inicioRespuesta() {
         final int CST = 60;
         velocidad = distancia/(tiempo/CST);
-        velocidad = Math.round(velocidad*100)/100.;
+        velocidad = Math.round(velocidad*100.0)/100.0;
     }
 
     @Override
     public void finRespuesta() {
-        System.out.println(String.format("Vous vous êtes déplacés à une vitesse de %f km/h.", velocidad));
+        System.out.println("Vous vous êtes déplacés à une vitesse de " + velocidad + " km/h.");
     }
     
 }

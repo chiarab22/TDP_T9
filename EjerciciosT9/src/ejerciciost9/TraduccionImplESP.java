@@ -25,12 +25,12 @@ public class TraduccionImplESP implements Traduccion {
     public void inicioRespuesta() {
         final int CST = 60;
         velocidad = distancia/(tiempo/CST);
-        velocidad = Math.round(velocidad*100)/100.;
+        velocidad = Math.round(velocidad*100.0)/100.0;
     }
 
     @Override
     public void finRespuesta() {
-        System.out.println(String.format("Se ha desplazado a una velocidad de %f km/h.", velocidad));
+        System.out.println("Se ha desplazado a una velocidad de " + velocidad + " km/h.");
 
     }
     

@@ -1,5 +1,7 @@
 package ejerciciost9;
 
+import ejerciciost9.ejercicio1.Ejercicio1;
+
 import java.util.Scanner;
 
 public class Menu { 
@@ -11,6 +13,8 @@ public class Menu {
            opcion = teclado.nextInt();
            switch (opcion) {
                 case 1:
+                    Ejercicio1 ejercicio1 = new Ejercicio1();
+                    ejercicio1.vistaCiclos();
                     break;
                 case 2:
                     Ejercicio2 ejercicio2 = new Ejercicio2();
