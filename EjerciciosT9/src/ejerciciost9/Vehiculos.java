@@ -1,13 +1,12 @@
 package ejerciciost9;
 
-import java.time.LocalDate;
 
 public abstract class Vehiculos {
     protected String marca, modelo;
-    protected LocalDate fechaDeCompra;
+    protected int fechaDeCompra;
 
 
-    public Vehiculos(String marca, String modelo, LocalDate fechaDeCompra) {
+    public Vehiculos(String marca, String modelo, int fechaDeCompra) {
         this.marca = marca;
         this.modelo = modelo;
         this.fechaDeCompra = fechaDeCompra;
@@ -29,11 +28,11 @@ public abstract class Vehiculos {
         this.modelo = modelo;
     }
 
-    public LocalDate getFechaDeCompra() {
+    public int getFechaDeCompra() {
         return this.fechaDeCompra;
     }
 
-    public void setFechaDeCompra(LocalDate fechaDeCompra) {
+    public void setFechaDeCompra(int fechaDeCompra) {
         this.fechaDeCompra = fechaDeCompra;
     }
 

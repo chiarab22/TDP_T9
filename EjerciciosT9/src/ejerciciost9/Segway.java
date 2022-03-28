@@ -1,12 +1,11 @@
 package ejerciciost9;
 
-import java.time.LocalDate;
 
 public class Segway extends Vehiculos{
     private int autonomia;
     private final double precio = 18.90;
     
-    public Segway(String marca, String modelo, LocalDate fechaDeCompra,int autonomia) {
+    public Segway(String marca, String modelo, int fechaDeCompra,int autonomia) {
         super(marca, modelo, fechaDeCompra);
         this.autonomia = autonomia;
     }

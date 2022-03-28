@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TraduccionImplFR implements Traduccion{
     private  double distancia;
-    private  int tiempo;
+    private  double tiempo;
     private  double velocidad;
     
     @Override
@@ -23,7 +23,7 @@ public class TraduccionImplFR implements Traduccion{
     public void inicioRespuesta() {
         final int CST = 60;
         velocidad = distancia/(tiempo/CST);
-        velocidad = Math.round(velocidad*100)/100;
+        velocidad = Math.round(velocidad*100)/100.;
     }
 
     @Override

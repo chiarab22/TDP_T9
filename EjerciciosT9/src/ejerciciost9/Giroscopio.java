@@ -1,12 +1,11 @@
 package ejerciciost9;
 
-import java.time.LocalDate;
 
 public class Giroscopio extends Vehiculos{  
     private int autonomia;
     private final double precio = 9.90;
 
-    public Giroscopio(String marca, String modelo, LocalDate fechaDeCompra, int autonomia) {
+    public Giroscopio(String marca, String modelo, int fechaDeCompra, int autonomia) {
         super(marca, modelo, fechaDeCompra);
         this.autonomia = autonomia;
     }
@@ -25,7 +24,7 @@ public class Giroscopio extends Vehiculos{
 
     @Override
     public void mostrar() {
-        System.out.println(String.format("Giroscopio %s %s (%s años) %d de autonomía", getMarca(),getModelo(),getFechaDeCompra(),getAutonomia()));
+        System.out.println(String.format("Giroscopio %s %s (%d años) %d de autonomía", getMarca(),getModelo(),getFechaDeCompra(),getAutonomia()));
         
     }
 

@@ -1,12 +1,11 @@
 package ejerciciost9;
 
-import java.time.LocalDate;
 
-public class Bicicletas extends Vehiculos {
+public class Bicicleta extends Vehiculos {
     private int velocidades;
     private final double precio = 4.90;
 
-    public Bicicletas(String marca, String modelo, LocalDate fechaDeCompra, int velocidades) {
+    public Bicicleta(String marca, String modelo, int fechaDeCompra, int velocidades) {
         super(marca, modelo, fechaDeCompra);
         this.velocidades = velocidades;
     }
