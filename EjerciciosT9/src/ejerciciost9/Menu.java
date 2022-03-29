@@ -1,7 +1,5 @@
 package ejerciciost9;
 
-import ejerciciost9.ejercicio1.Ejercicio1;
-
 import java.util.Scanner;
 
 public class Menu { 

@@ -1,31 +1,25 @@
 package ejerciciost9;
 
-
-public class Giroscopio extends Vehiculos{  
+public class Giroscopio extends Vehiculos {
     private int autonomia;
-    private final double precio = 9.90;
+    private double precio = 9.90;
 
     public Giroscopio(String marca, String modelo, int fechaDeCompra, int autonomia) {
         super(marca, modelo, fechaDeCompra);
         this.autonomia = autonomia;
     }
 
-    public double getAutonomia() {
+    public int getAutonomia() {
         return this.autonomia;
     }
 
-    public void setAutonomia(int autonomia) {
-        this.autonomia = autonomia;
-    }
-
     public double getPrecio() {
-        return this.precio;
+        return precio;
     }
 
     @Override
     public void mostrar() {
-        System.out.println(String.format("Giroscopio %s %s (%d años) %d de autonomía", getMarca(),getModelo(),getFechaDeCompra(),getAutonomia()));
-        
+        System.out.println("Giroscopio " + getMarca() + " " + getModelo() + "(" + getFechaDeCompra() + " años) " + getAutonomia() + " km de autonomía.  ----- " + getPrecio() + "€/hora");
     }
 
   

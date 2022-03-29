@@ -3,7 +3,7 @@ package ejerciciost9;
 
 public class Bicicleta extends Vehiculos {
     private int velocidades;
-    private final double precio = 4.90;
+    double precio = 4.90;
 
     public Bicicleta(String marca, String modelo, int fechaDeCompra, int velocidades) {
         super(marca, modelo, fechaDeCompra);
@@ -14,18 +14,18 @@ public class Bicicleta extends Vehiculos {
         return this.velocidades;
     }
 
-    public void setVelocidades(int velocidades) {
-        this.velocidades = velocidades;
+    public double getPrecio() {
+        return Math.round(this.precio*100.0)/100.0;
     }
 
-    public double getPrecio() {
-        return this.precio;
+    public void setPrecio(double precio) {
+        this.precio = precio;
     }
 
     @Override
     public void mostrar() {
-        System.out.println(String.format("Bicis %s %s (%s años) %d velocidades", getMarca(),getModelo(),getFechaDeCompra(),getVelocidades()));
-        
+        System.out.println("Bicis " + getMarca() + " " + getModelo()  + "(" + getFechaDeCompra() + " años) " + getVelocidades() + " velocidades.  ----- " + getPrecio() + "€/hora");
+
     }
 
 }
