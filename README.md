@@ -15,4 +15,5 @@ El objetivo de este ejercicio era de crear una interfaz que pudiese comunicarse 
 ![FlowchartEj2 drawio (1)](https://user-images.githubusercontent.com/98779707/160829434-1324d195-9a4b-435c-b0e0-de909e2a1bce.svg)
 
 ## Diagrama UML Tema 9
-![UML_T9](https://user-images.githubusercontent.com/58274468/160789979-a7b31a7e-9e24-4014-b762-55542ee64cce.svg)
+
+![UML_T9 drawio](https://user-images.githubusercontent.com/98779707/160829592-f452bd8c-3a4f-47c3-883d-5d97057357e4.svg)
