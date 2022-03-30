@@ -3,7 +3,7 @@ Entrega realizada por Chiara Boccaletti, Patricia Sanz Escurín y Manuel Antón 
 
 El link correspondiente con el repositorio es: https://github.com/chiarab22/TDP_T9.git
 
-## Diagrama UML Tema 9
+### Diagrama UML Tema 9
 
 ![UML_T9 drawio](https://user-images.githubusercontent.com/98779707/160829592-f452bd8c-3a4f-47c3-883d-5d97057357e4.svg)
 
