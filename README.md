@@ -1,6 +1,8 @@
 # Tema 9: elementos Abstractos
 Entrega realizada por Chiara Boccaletti, Patricia Sanz Escurín y Manuel Antón Martínez-Carrasco.
 
+El link correspondiente con el repositorio es: https://github.com/chiarab22/TDP_T9.git
+
 ### Ejercicio "El alquiler de bicis"
 Hemos creado un programa que muestra los distintos modelos de bicicleta que tiene una empresa. Para ello, hemos creado una clase abstracta Vehiculo, y varias clases que heredan de ella, aportando cada una diferentes funcionalidades además de las ya ofrecidas por la clase padre.
 
