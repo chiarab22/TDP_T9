@@ -11,7 +11,8 @@ Hemos creado un programa que muestra los distintos modelos de bicicleta que tien
 El objetivo de este ejercicio era de crear una interfaz que pudiese comunicarse en distintos idiomas, con el fin de mostrar al usuario la velocidad de deplazamiento. Para lograrlo, nos hemos ayudado de una interfaz llamada Traduccion para agrupar los métodos comunes: introducirDistancia(), introducirTiempo(), inicioRespuesta(), finRespuesta() y los hemos implementados en cada clase que heredaba de la clase Traduccion.
 
 ## Diagrama de flujo ejercicio 2
-![Flowchart_ej2](https://user-images.githubusercontent.com/58274468/160654938-75ae0879-ad3e-4127-aa64-d27e42da98b9.png)
+
+![FlowchartEj2 drawio (1)](https://user-images.githubusercontent.com/98779707/160829434-1324d195-9a4b-435c-b0e0-de909e2a1bce.svg)
 
 ## Diagrama UML Tema 9
 ![UML_T9](https://user-images.githubusercontent.com/58274468/160789979-a7b31a7e-9e24-4014-b762-55542ee64cce.svg)
