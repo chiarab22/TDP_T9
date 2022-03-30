@@ -1,6 +1,5 @@
 package ejerciciost9.ejercicio2;
 
-import ejerciciost9.ejercicio2.Traduccion;
 
 import java.util.Scanner;
 
