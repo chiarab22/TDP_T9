@@ -1,8 +1,10 @@
-package ejerciciost9;
+package ejerciciost9.ejercicio2;
+
+import ejerciciost9.ejercicio2.Traduccion;
 
 import java.util.Scanner;
 
-public class TraduccionImplFR implements Traduccion{
+public class TraduccionImplFR implements Traduccion {
     private  double distancia;
     private  double tiempo;
     private  double velocidad;

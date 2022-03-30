@@ -1,4 +1,4 @@
-package ejerciciost9;
+package ejerciciost9.ejercicio1;
 
 
 public class Segway extends Vehiculos {
@@ -12,10 +12,6 @@ public class Segway extends Vehiculos {
 
     public int getAutonomia() {
         return this.autonomia;
-    }
-
-    public void setAutonomia(int autonomia) {
-        this.autonomia = autonomia;
     }
 
     public double getPrecio() {

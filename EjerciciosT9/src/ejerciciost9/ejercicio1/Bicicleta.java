@@ -1,4 +1,4 @@
-package ejerciciost9;
+package ejerciciost9.ejercicio1;
 
 
 public class Bicicleta extends Vehiculos {

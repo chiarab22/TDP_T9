@@ -1,21 +1,24 @@
-package ejerciciost9;
+package ejerciciost9.ejercicio2;
+
+import ejerciciost9.ejercicio2.Traduccion;
 
 import java.util.Scanner;
 
-public class TraduccionImplITA implements Traduccion{
-   private double distancia;
-   private double tiempo;
-   private double velocidad;
-   
+public class TraduccionImplENG implements Traduccion {
+    private double distancia;
+    private double tiempo;
+    private double velocidad;
+    
     @Override
     public void introducirDistancia(Scanner teclado) {
-        System.out.println("Introduca la distanza percorsa (km).");
+        
+        System.out.println("Enter the travelled distance (km).");
         distancia = teclado.nextDouble();
     }
 
     @Override
     public void introducirTiempo(Scanner teclado) {
-        System.out.println("Introduca il tempo del percorso (min).");
+        System.out.println("Enter the time of the trip (min).");
         tiempo = teclado.nextInt();
     }
 
@@ -28,7 +31,7 @@ public class TraduccionImplITA implements Traduccion{
 
     @Override
     public void finRespuesta() {
-        System.out.println("Si è spostato a una velocità di " + velocidad + " km/h.");
+        System.out.println("You have travelled at a speed of " + velocidad + " km/h.");
     }
     
 }

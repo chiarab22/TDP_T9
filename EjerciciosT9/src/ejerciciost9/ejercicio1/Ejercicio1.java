@@ -1,6 +1,4 @@
-package ejerciciost9;
-
-import java.util.ArrayList;
+package ejerciciost9.ejercicio1;
 
 
 public class Ejercicio1 {
@@ -10,8 +8,6 @@ public class Ejercicio1 {
     Giroscopio g2 = new Giroscopio("Weebot", "Echo", 1, 35);
     Segway s1 = new Segway("Immotion", "v8", 0, 40);
     Segway s2 = new Segway("Segway", "Ninebot One E+", 0, 30);
-
-    ArrayList<Vehiculos> vehiculos = new ArrayList<>();
 
 
     public void vistaCiclos() {

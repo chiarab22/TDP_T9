@@ -1,4 +1,4 @@
-package ejerciciost9;
+package ejerciciost9.ejercicio1;
 
 
 public abstract class Vehiculos {
@@ -16,24 +16,12 @@ public abstract class Vehiculos {
         return this.marca;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
     public String getModelo() {
         return this.modelo;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
     public int getFechaDeCompra() {
         return this.fechaDeCompra;
-    }
-
-    public void setFechaDeCompra(int fechaDeCompra) {
-        this.fechaDeCompra = fechaDeCompra;
     }
 
     public abstract void mostrar();
